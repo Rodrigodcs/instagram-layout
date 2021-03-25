@@ -442,4 +442,11 @@ body {
   .vector {
     display: none;
   }
+  .stories-box {
+    background-color: #fafafa;
+    border: none;
+  }
+  .imagem-stories {
+    background-image: url("../Imagens/stories_background\ gray.png");
+  }
 }
