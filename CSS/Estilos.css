@@ -291,7 +291,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   justify-content: space-between;
-  height: 200px;
+
   color: #262626;
 }
 .image-icons {
@@ -312,6 +312,20 @@ body {
 .curtido {
   display: flex;
   align-items: center;
+  margin-top: 10px;
+}
+.descricao {
+  margin-top: 5px;
+}
+.ver-todos {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.comentarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
 .c1 {
   display: flex;
@@ -322,7 +336,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2px;
+  margin-top: 3px;
+}
+.time {
+  margin-top: 8px;
 }
 
 .comentario {
@@ -352,6 +369,8 @@ button:hover {
 }
 .comentar {
   width: 100%;
+  font-size: 18px;
+  outline: none;
   margin-left: 10px;
   background: white;
   border: none;
@@ -486,6 +505,26 @@ button:hover {
   color: #c7c7c7;
 }
 /* Fim da Barra Lateral */
+
+/* Extras */
+.novo {
+  position: relative;
+}
+.circle {
+  box-sizing: border-box;
+  position: absolute;
+  right: -5px;
+  top: -3px;
+  background-color: #ed4956;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding-top: 3px;
+}
 
 @media (max-width: 935px) {
   .sidebar {
